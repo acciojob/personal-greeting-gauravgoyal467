@@ -11,9 +11,9 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <p>Enter your name:</p>
+        <h1>Enter your name:</h1>
         <input onChange={handleChange} type="text"/>
-        <p> `Hello {name}!`</p>
+        <p>Hello {name}!</p>
     </div>
   )
 }
